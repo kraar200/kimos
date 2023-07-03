@@ -1,0 +1,40 @@
+{
+    "name": "Source Kimo",
+    "description": " اهلا بكم في تنصيب سورس كيمو !",
+    "logo" : "https://graph.org/file/2aeccbcf5a28db879d150.jpg",
+    "stack": "container",
+    "repository": "https://github.com/kraar200/kimos",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website":"https://github.com/kraar200/kimos",
+    "env": {
+        "APP_ID": {
+            "description": "ايبي ايدي",
+            "value": "",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "ايبي هاش",
+            "value": "",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "كود تيرمكس",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "توكن البوت",
+            "value": "",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر البوت بدون ـ@ـ",
+            "value": "",
+            "required": true
+        }
+    }
+}
